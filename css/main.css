@@ -1,3 +1,4 @@
+/*_____________________HEADER___________________________*/
 .logo {
   color: var(--accent-color);
   font-family: Raleway;
@@ -123,6 +124,7 @@ footer .logo span {
   border: 1px solid #ececec;
 }
 
+/*_____________________FOOTER___________________________*/
 footer {
   background-color: var(--background-color);
   height: 132px;
