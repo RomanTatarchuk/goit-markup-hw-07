@@ -1,11 +1,11 @@
 //@import './utils/_variables';
 //@import './utils/_placeholders';
 
-//@import './general/_common';
+@import './general/_common';
 //@import './general/_conteiner';
 
 @import './components/_header';
-//@import './components/_hero';
+@import './components/_hero';
 //@import './components/_features';
 //@import './components/_services';
 //@import './components/_team';
@@ -14,8 +14,8 @@
 
 //@import './components/_clients';
 @import './components/_footer';
-//import './components/_backdrop';
-//@import './components/_modal';
+@import './components/_backdrop';
+@import './components/_modal';
 
 //@import './components/_pfilter';
 //@import './components/_pgalary';
