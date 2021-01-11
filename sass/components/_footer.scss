@@ -21,6 +21,10 @@ footer {
   margin: 0px 0px 10px;
 }
 
+footer .logo span {
+  color: var(--accent-color-2);
+}
+
 footer .contacts a {
   color: rgba(255, 255, 255, 0.6);
 }
