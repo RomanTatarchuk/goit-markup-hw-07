@@ -1,0 +1,57 @@
+/*____________________________CLIENTS__________________________*/
+
+.clients {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.clients h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  height: 42px;
+}
+
+.clients ul {
+  margin-top: 50px;
+  margin-bottom: 0;
+  height: 90px;
+}
+
+.clients li {
+  display: inline-flex;
+  margin-right: 26px;
+  width: 170px;
+  height: 90px;
+}
+
+.clients li:last-child {
+  margin-right: 0px;
+}
+
+.clients-logo {
+  fill: currentColor;
+}
+
+.clients a:hover,
+.clients a:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients a {
+  width: 170px;
+  height: 90px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  background-color: var(--accent-color-2);
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}

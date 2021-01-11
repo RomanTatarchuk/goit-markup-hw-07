@@ -1,0 +1,75 @@
+/*_____________________________FEATURES_______________________________*/
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  width: 70px;
+  height: 70px;
+}
+
+.icon1 {
+  background-image: url('../image/benefits/antenna.svg');
+}
+
+.icon2 {
+  background-image: url('../image/benefits/clock.svg');
+}
+
+.icon3 {
+  background-image: url('../image/benefits/diagram.svg');
+}
+
+.icon4 {
+  background-image: url('../image/benefits/astronaut.svg');
+}
+
+.fon {
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-color-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.features h3 {
+  color: var(--title-text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.features p {
+  color: var(--primary-text-color);
+  margin-top: 0px;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 1.71;
+}
+
+.features ul {
+  display: flex;
+  margin: 0px;
+}
+
+.features li {
+  margin-right: 30px;
+  height: 251px;
+  width: 270px;
+}
+
+.features li:last-child {
+  margin-right: 0px;
+}
+
+.features {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
