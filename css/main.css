@@ -227,7 +227,7 @@ a {
 }
 
 .features p {
-  color: var(--primary-text-color);
+  color: #757575;
   margin-top: 0px;
   font-size: 14px;
   letter-spacing: 0.42px;
@@ -258,8 +258,7 @@ a {
 }
 
 /*_________________________SERVICES________________________________*/
-.services h2,
-.team h2 {
+.services h2 {
   margin: 0px;
   color: #212121;
   font-size: 36px;
@@ -318,6 +317,12 @@ a {
 
 .team h2 {
   padding-top: 94px;
+  margin: 0px;
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  text-align: center;
 }
 
 .team h3 {
