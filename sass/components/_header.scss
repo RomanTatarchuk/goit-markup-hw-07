@@ -1,10 +1,10 @@
 /*_____________________HEADER___________________________*/
 
 .logo {
-  color: var(--accent-color);
+  color: $accent-color;
   font-family: Raleway;
   font-size: 26px;
-  font-weight: 700;
+  font-weight: $main-weight;
   letter-spacing: 0.78px;
   line-height: 1.19;
   margin-right: 93px;
@@ -12,25 +12,25 @@
 }
 
 .logo span {
-  color: #000;
+  color: $studio-color;
 }
 
 .nav-list a {
-  color: var(--title-text-color);
-  font-size: 14px;
-  font-weight: 500;
+  color: $main-text-color;
+  font-size: $h4-size;
+  font-weight: $middle-weight;
   letter-spacing: 0.28px;
   padding: 10px 0px 32px;
 }
 
 .nav-list a:hover,
 .nav-list a:focus {
-  color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: $accent-color;
+  transition: 250ms $timing-function;
 }
 
 .nav-list a.current {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .nav-list li {
@@ -73,9 +73,9 @@
 .contacts a:focus,
 .contact-icon:hover,
 .contact-icon:focus {
-  color: var(--accent-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: $accent-color;
+  text-shadow: 0px 4px 4px $text-shadow;
+  transition: 250ms $timing-function;
 }
 
 .nav-list .current::after {
@@ -85,14 +85,14 @@
   content: '';
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border-radius: 2px;
 }
 
 .contacts a {
-  color: var(--primary-text-color);
-  font-size: 14px;
-  font-weight: 500;
+  color: $text-color;
+  font-size: $h4-size;
+  font-weight: $middle-weight;
   letter-spacing: 0.28px;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .mailshadow {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px $text-shadow;
 }
 
 .header {
@@ -118,5 +118,5 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  border: 1px solid #ececec;
+  border: 1px solid $border-bottom-color;
 }

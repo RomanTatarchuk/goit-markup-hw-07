@@ -1,10 +1,9 @@
 /*_____________________FOOTER___________________________*/
 
 footer {
-  background-color: var(--background-color);
+  background-color: $footer-hero-color;
   height: 132px;
   padding: 60px 0px;
-  font-style: normal;
   justify-items: center;
   justify-content: center;
   display: flex;
@@ -21,12 +20,23 @@ footer {
   margin: 0px 0px 10px;
 }
 
+.logo {
+  color: $accent-color;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: $main-weight;
+  letter-spacing: 0.78px;
+  line-height: 1.19;
+  margin-right: 93px;
+  display: flex;
+}
+
 footer .logo span {
-  color: var(--accent-color-2);
+  color: $main-title-color;
 }
 
 footer .contacts a {
-  color: rgba(255, 255, 255, 0.6);
+  color: $contact-color;
 }
 
 .enjoy,
@@ -39,8 +49,8 @@ footer .contacts a {
 .enjoy p,
 .subscribe p {
   margin: 0px;
-  font-weight: bold;
-  font-size: 14px;
+  font-weight: $main-weight;
+  font-size: $h4-size;
   line-height: 16px;
   letter-spacing: 0.03em;
 }
@@ -62,9 +72,9 @@ footer .contacts a {
 .button-footer a:hover,
 .button-footer a:focus {
   border-radius: 50%;
-  background-color: var(--accent-color);
-  color: var(--accent-color-2);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: $accent-color;
+  color: $main-title-color;
+  transition: 250ms $timing-function;
 }
 
 .button-footer a {
@@ -73,8 +83,8 @@ footer .contacts a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: var(--accent-color-2);
-  background-color: rgba(255, 255, 255, 0.1);
+  color: $main-title-color;
+  background-color: $social-link-footer-background;
   border-radius: 50%;
 }
 
@@ -89,16 +99,16 @@ footer .contacts a {
 .address,
 .enjoy p,
 .subscribe p {
-  color: #fff;
+  color: $main-title-color;
 }
 
 .subscribe input {
   width: 358px;
   height: 50px;
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid $footer-subscribe;
   box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px ($box-shadow));
   border-radius: 4px;
   margin-top: 20px;
   margin-right: 10px;
@@ -106,11 +116,11 @@ footer .contacts a {
 }
 
 .subscribe input::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  color: $contact-color;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: $h3-size;
   font-style: normal;
-  font-weight: 400;
+  font-weight: $normal-weight;
   line-height: 20px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -119,15 +129,15 @@ footer .contacts a {
 .subscribe button {
   width: 200px;
   height: 50px;
-  background: var(--accent-color);
+  background: $accent-color;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px 0px $box-shadow;
   border: 0px;
-  color: var(--accent-color-2);
+  color: $main-title-color;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: $h3-size;
   font-style: normal;
-  font-weight: 700;
+  font-weight: $main-weight;
   line-height: 30px;
   letter-spacing: 0.06em;
 }

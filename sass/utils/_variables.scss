@@ -4,29 +4,34 @@ $text-color: #757575;
 $main-title-color: #ffffff;
 $studio-color: #000000;
 $footer-hero-color: #2f303a;
-$background-color: #f5f4fa;
+$background-color2: #f5f4fa;
 $contact-color: rgba(255, 255, 255, 0.6);
 $border-bottom-color: #ececec;
 $border-card-color: #eeeeee;
+$team-color: #c4c4c4;
 $icon-fill-color: #afb1b8;
 $social-link-footer-background: rgba(255, 255, 255, 0.1);
-$title-big-img-background: rgba(47, 48, 58, 0.8);
+$footer-subscribe: rgba(255, 255, 255, 0.3);
+$hero-background: rgba(47, 48, 58, 0.4);
+$services-background: rgba(47, 48, 58, 0.8);
 $overlay-background-color: rgba(33, 150, 243, 0.9);
-
+$box-shadow: rgba(0, 0, 0, 0.15);
+$text-shadow: rgba(0, 0, 0, 0.25);
 $backdrop_background: rgba(0, 0, 0, 0.2);
 
-$primary-font: Roboto, OpenSans;
-$logo-font: Raleway, OpenSans;
+//$primary-font: Roboto, OpenSans;
+//$logo-font: Raleway, OpenSans;
 
-$basic-weight: 700;
-$second-weight: 400;
-$subsidiary-weight: 500;
+$main-weight: 700;
+$normal-weight: 400;
+$middle-weight: 500;
 
-$first-height: 1.2;
-$secondary-height: 1.14;
-$third-height: 1.71;
+//$first-height: 1.2;
+//$secondary-height: 1.14;
+//$third-height: 1.71;
 
 $h2-size: 36px;
 $h3-size: 16px;
+$h4-size: 14px;
 
 $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
